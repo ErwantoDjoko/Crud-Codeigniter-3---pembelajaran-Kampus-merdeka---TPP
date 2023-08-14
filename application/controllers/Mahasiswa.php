@@ -17,7 +17,13 @@ class Mahasiswa extends CI_Controller {
 	}
 
     public function add(){
-        $this->load->view('v_mhs_form');
+
+        $data = array(
+            'pages' => 'v_mhs_form',
+        );
+
+        $this->load->view('main',$data);
+
     }
 
     public function simpan(){
