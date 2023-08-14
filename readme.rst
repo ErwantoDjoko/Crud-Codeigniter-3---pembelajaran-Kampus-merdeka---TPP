@@ -20,10 +20,10 @@ Text Editor, `VS code <https://code.visualstudio.com/download>`_ page.
 
 
 ************
-Instalasi Codeigniter
+Materi
 ************
 
-Proses intalasi dapat anda pelajari pada `link ini <https://codeigniter.com/userguide3/installation/index.html>`_
+berikut link `materi <https://www.dropbox.com/scl/fi/t4d5xnwritzjt2ibblbil/Codeigniter-Dasar.odp?dl=0&oref=e&r=AB-QWPB4FcntqH9SIyZTX6WA-3_9ol-k7JwQVZaXue8ule8FZiUZmFtUgzpKfW15HAFCJcvGhzF_2jAh-E4pP9YBmndT8IIMSWQDVQK1-yo6RcLu06bIkdExFJM_ZXYZYc8vSw9HhcsvjOvMDfklQpv-KNGD_1pvHpHiShTTkkYhuVFZpZEsRj36rXRvbQnGUOY&sm=1>`_
 
 *******
 License Codeigniter
