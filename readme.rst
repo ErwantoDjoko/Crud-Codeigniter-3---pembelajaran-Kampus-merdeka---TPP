@@ -6,11 +6,17 @@ Pengenalan dasar penggunaan framework codeigniter, dengan materi ini anda dihara
 CodeIgniter telah mengusung konsep MVC dan mendukung beragam RDBMS.
 
 *******************
-Source
+Alat Kerja
 *******************
 
 Pada materi ini menggunakan Codeigniter 3 versi terakhir `CodeIgniter 3
 <https://codeigniter.com/userguide3/installation/downloads.html>`_ page.
+
+Webserver, `Xampp <https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/>`_ page.
+anda dapat menggunakan xampp versi 7 atau versi 8
+
+Text Editor, `VS code <https://code.visualstudio.com/download>`_ page.
+
 
 
 ************
