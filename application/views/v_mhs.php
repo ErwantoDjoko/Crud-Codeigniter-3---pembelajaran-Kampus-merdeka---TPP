@@ -24,8 +24,8 @@
                            <td>'.$row->nama.'</td>
                            <td>'.$row->prodi.'</td>
                            <td>'.$row->jurusan.'</td>
-                           <td><a href="'.base_url('mahasiswa/view?nim='.$row->nim.'').'">Lihat</a> | <a href="'.base_url('mahasiswa/edit?nim='.$row->nim.'').'">Edit</a> | <a href="'.base_url('mahasiswa/delete?nim='.$row->nim.'').'">Hapus</a> </td>
-                           </tr>';
+                            <td><a href="'.base_url('mahasiswa/view?nim='.$row->nim.'').'">Lihat</a> | <a href="'.base_url('mahasiswa/edit?nim='.$row->nim.'').'">Edit</a> | <a href="'.base_url('mahasiswa/delete?nim='.$row->nim.'').'">Hapus</a> </td>
+                           ';
                            $no++;
                         }
 

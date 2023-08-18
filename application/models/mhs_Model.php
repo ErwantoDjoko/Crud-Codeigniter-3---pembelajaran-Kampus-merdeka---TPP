@@ -4,7 +4,6 @@ class mhs_Model extends CI_Model
 {
 
 
-
     public function getMahasiswa()
     {
 
