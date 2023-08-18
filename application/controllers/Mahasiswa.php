@@ -54,11 +54,9 @@ class Mahasiswa extends CI_Controller {
         $nim = $this->input->get('nim');
 
         $profile = $this->mhs_Model->getMahasiswaByNim($nim);
-        $mata_kuliah = $this->mhs_Model->getMatakuliahByNim($nim);
-
+      
         $data = array(
             'profile'=> $profile,
-            'mata_kuliah'=> $mata_kuliah,
             'pages' => 'v_mhs_d',
         );
 
