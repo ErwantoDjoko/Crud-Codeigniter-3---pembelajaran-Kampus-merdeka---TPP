@@ -54,9 +54,11 @@ class Mahasiswa extends CI_Controller {
         $nim = $this->input->get('nim');
 
         $profile = $this->mhs_Model->getMahasiswaByNim($nim);
-      
+        $mata_kuliah = $this->mhs_Model->getMatakuliahByNim($nim);
+
         $data = array(
             'profile'=> $profile,
+            'mata_kuliah'=> $mata_kuliah,
             'pages' => 'v_mhs_d',
         );
 
@@ -95,6 +97,19 @@ class Mahasiswa extends CI_Controller {
         );
 
         $this->mhs_Model->updateMhs($data);
+
+        redirect('../mahasiswa');
+
+    }
+
+    public function delete(){
+        $this->load->model('mhs_Model');
+
+        $nim = $this->input->get('nim');
+
+
+
+        $this->mhs_Model->deleteMhs($nim);
 
         redirect('../mahasiswa');
 

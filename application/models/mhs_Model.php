@@ -56,6 +56,17 @@ class mhs_Model extends CI_Model
         }
     }
 
+    public function deleteMhs($nim)
+    {
+        $this->db->where('nim',$nim);
+        $respon = $this->db->delete('mst_mahasiswa');
+        if ($respon) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 
 
 }
