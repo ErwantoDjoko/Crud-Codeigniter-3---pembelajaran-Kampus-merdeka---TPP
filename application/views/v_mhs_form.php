@@ -35,7 +35,6 @@
             <div class="form-group row  mt-1">
             <div class="col-sm-10 ">
                       <button class="btn btn-primary" type="submit">Simpan</button>
-                      <button class="btn btn-secondary" type="button">Batal</button>
 
             </div>
             </div>
